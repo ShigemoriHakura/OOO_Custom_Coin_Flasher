@@ -28,7 +28,7 @@ And this days RFID chips like rc522 is soooo cheap! So there's no reason to use 
 
 With some small research, and use a logic analyser, We can easily find that the 3pins(ABLEN, DATA, CLOCK) works like this:
 
-![1723560334846](image/Logic.png)
+![logic](image/logic.png)
 
 The ABLEN is pulled down when the scanner is flashing, and when the nfc flasher find a coin, it will send the coin's id with the DATA lan and CLOCK lan.
 
