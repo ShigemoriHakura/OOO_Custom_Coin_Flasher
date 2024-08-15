@@ -37,7 +37,7 @@ Like the table below, the coin's id is converted to binary. each 0/1 in clock la
 ```
                        Start bits         |      Coin ID (162 in dec)     | End bits
                                           | 1   0   1   0   0   0   1   0 |
-DATA:   0   0   0   0   0   0   0   0   1 | 1   0   1   0   0   0   1   0 | 0   1   0
+DATA:   0   0   0   0   0   0   0   0   1 | 1   0   1   0   0   0   1   0 | 0   1   1
 CLOCK: 000 101 101 101 101 101 101 101 101 101 101 101 101 101 101 101 101 101 101 101
 ```
 
